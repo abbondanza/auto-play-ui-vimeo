@@ -1,0 +1,4 @@
+node_modules/*
+public/dest/*
+public/built/*
+public/index.html

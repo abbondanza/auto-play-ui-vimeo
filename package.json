@@ -1,0 +1,22 @@
+{
+  "name": "vimeo-simple-ui",
+  "version": "1.0.0",
+  "description": "UI for Vimeo Simple API",
+  "dependencies": {
+    "express": "^4.12.0",
+    "rjs": "^4.0.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-sass": "^0.18.1",
+    "load-grunt-tasks": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api-server",
+    "build-win" : "r.js.cmd -o public/js/app.build.js && grunt",
+    "build" : "r.js -o public/js/app.build.js && grunt"
+  },
+  "author": "Rafael Abbondanza",
+  "license": "ISC"
+}

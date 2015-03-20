@@ -1,0 +1,60 @@
+body{
+	font-size:small;
+	> header h1{
+		text-align:left;
+	}
+}
+
+#content{
+	max-width:1000px;
+	display:block;
+	margin: 0 auto;
+	margin-top:12px;
+
+	section.list-panel{
+		width: 35%;
+		display:block;
+		float:left;
+
+	}
+	section.content-panel{
+		margin-left:1%;
+		width:64%;
+		height:auto;
+		display:block;
+		float:left;
+
+		.content-card{
+			background-color:#ffffff;
+			margin-top:12px;
+			p {
+				margin-top:15px;
+			}
+			.more-info-description{
+				width:100%;
+				background-color:#bbbbbb;
+				padding:5px 0px;
+				span{
+					display:block;
+					margin:0 auto;
+				}
+			}
+		}
+
+		article.content-card.info{
+			display:block;
+		}
+
+
+		.content-card:first-of-type {
+			margin-top:0;
+		}
+
+		.info{
+			display:block;
+			padding:15px;
+		}
+	}
+
+
+}
