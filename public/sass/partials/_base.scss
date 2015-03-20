@@ -3,16 +3,15 @@
 body{
 	font-size:0.7em;
 	background-color:#dddddd;
-	> header{
-		padding: 5px 20px;
+	> header {
+		font-size:x-small;
+		padding: 5px 30px;
 		background-color:#33ADFF;
 		color:#ffffff;
-		border-top:10px solid #4E8BB2;
-		h1{
-			text-align:center;
+		h1 {
 			font-weight:normal;
+			text-align:center;
 		}
-
 	}
 
 	.loading-overlay{

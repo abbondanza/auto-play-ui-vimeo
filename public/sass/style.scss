@@ -1,13 +1,10 @@
 @import "partials/base";
 
+@media only screen and (min-width: 600px) {
+	@import "partials/600";
+}
+
 @media only screen and (min-width: 900px) {
 	@import "partials/900";
 }
 
-/*@media only screen and (min-width: 600px) {
-	@import "partials/600";
-}
-
-@media only screen and (min-width: 768px) {
-	@import "partials/768"
-}*/

@@ -4,6 +4,7 @@
   "description": "UI for Vimeo Simple API",
   "dependencies": {
     "express": "^4.12.0",
+    "requirejs": "^2.1.16",
     "rjs": "^4.0.2"
   },
   "devDependencies": {
@@ -14,8 +15,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node api-server",
-    "build-win" : "r.js.cmd -o public/js/app.build.js && grunt",
-    "build" : "r.js -o public/js/app.build.js && grunt"
+    "build-win": "r.js.cmd -o public/js/app.build.js && grunt",
+    "build": "node_modules/requirejs/bin/r.js -o public/js/app.build.js && grunt"
   },
   "author": "Rafael Abbondanza",
   "license": "ISC"
