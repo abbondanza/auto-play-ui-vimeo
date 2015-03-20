@@ -4,7 +4,7 @@ This project is a simple page interfacing the Vimeo Simple API.  It makes a call
 
 ### Instructions
 
-(This assumes Node and NPM are installed)
+(This assumes Node, NPM and Grunt are installed)
 
 The following commands are to be run on a Terminal or Windows PowerShell.
 
