@@ -20,7 +20,7 @@ npm install
 npm run build-win
 ```
 
-2b. Build on other machines:
+2b. Build on other machines (may need ``` sudo ```):
 
 ```
 npm run build
